@@ -1,5 +1,5 @@
 
-This is my personal portfolio website, built with the help from @ajlkn
+This is my personal portfolio website, built with help from @ajlkn
 
 
 
