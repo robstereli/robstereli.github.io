@@ -499,6 +499,11 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 40px;
   line-height: 44px;
 }
+
+#fh5co-intro b {
+  color: #5a6fc4;
+}
+
 #fh5co-intro h2 span {
   font-family: "Open Sans", arial, sans-serif !important;
   font-size: 16px;
@@ -1215,10 +1220,5 @@ input[type="text"] {
   width: 100%;
 }
 
-.sticky_item {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 40px;
-}
 
 /*# sourceMappingURL=style.css.map */
