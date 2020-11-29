@@ -1,35 +1,50 @@
 
-This is my personal portfolio website, built with help from @ajlkn
+TITLE: 
+Architect - 100% Fully Responsive Free HTML5 Bootstrap Template
+
+AUTHOR:
+DESIGNED & DEVELOPED by FreeHTML5.co
+
+Website: http://freehtml5.co/
+Twitter: http://twitter.com/fh5co
+Facebook: http://facebook.com/fh5co
 
 
+CREDITS:
 
-Editorial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Bootstrap
+http://getbootstrap.com/
 
+jQuery
+http://jquery.com/
 
-Say hello to Editorial, a blog/magazine-ish template built around a toggleable "locking"
-sidebar (scroll down to see what I mean) and an accordion-style menu. Not the usual landing
-page/portfolio affair you'd expect to see at HTML5 UP, but I figured for my 41st (!!!)
-template I'd change it up a little. Enjoy :)
+jQuery Easing
+http://gsgd.co.uk/sandbox/jquery/easing/
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Modernizr
+http://modernizr.com/
 
-(* = not included)
+Google Fonts
+https://www.google.com/fonts/
 
-AJ
-aj@lkn.io | @ajlkn
+Icomoon
+https://icomoon.io/app/
 
+Respond JS
+https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
 
-Credits:
+animate.css
+http://daneden.me/animate
 
-	Demo Images:
-		Unsplash (unsplash.com)
+jQuery Waypoint
+https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Flexslider
+http://flexslider.woothemes.com/
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Sticky Kit
+http://leafo.net/sticky-kit/
+
+Demo Images:
+http://unsplash.com
+
