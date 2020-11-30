@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 1em 0 0 0;
 }
 .fh5co-nav ul li {
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -467,7 +467,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.8);
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(255, 255, 255, 0.8);
@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-intro h2 span {
-  font-family: "Open Sans", arial, sans-serif !important;
+  font-family: "Lato", arial, sans-serif !important;
   font-size: 16px;
 }
 #fh5co-intro h2 span em {
@@ -592,6 +592,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .detail h2 {
+  font-family: Lato, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 34px;
   margin-bottom: 10px;
 }
 .detail span {
@@ -989,7 +993,7 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: "Lato", arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 1px;
@@ -1218,6 +1222,19 @@ input[type="text"] {
   margin-bottom: 20px;
   float: left;
   width: 100%;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 
