@@ -128,6 +128,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin: 2em 0 2em 0;
   }
 }
+
 .fh5co-nav .top-menu {
   padding: 0;
 }
@@ -139,13 +140,7 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 0.15em;
   font-family: "Overpass", sans-serif;
 }
-.fh5co-nav #fh5co-logo a {
-  margin-bottom: 0;
-  padding: 0;
-  color: #000;
-  display: block;
-  line-height: 32px;
-}
+
 
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
