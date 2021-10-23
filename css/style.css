@@ -12,15 +12,14 @@ body {
   line-height: 1.7;
   color: #767676;
   background: rgba(232, 232, 232, 0.6);
-  /* START white border*/
-  border-left: 20px solid #fff;
-  border-right: 20px solid #fff;
-  /* END white border*/
+  border-left: 20px solid #5a6fc4;
+  border-right: 20px solid #5a6fc4;
+
 }
 body:before, body:after {
   content: "";
   position: fixed;
-  background: #fff;
+  background: #5a6fc4;
   left: 0;
   right: 0;
   height: 20px;
@@ -136,9 +135,12 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 30px;
   margin: 0;
   padding: 0;
-  font-weight: 400;
+  font-weight: 900;
   letter-spacing: 0.15em;
   font-family: "Overpass", sans-serif;
+}
+.fh5co-nav #fh5co-logo a{
+  color: #999999;
 }
 
 
@@ -587,6 +589,8 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: 700;
   line-height: 34px;
   margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .detail span {
   display: block;
@@ -595,6 +599,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .detail p {
   font-size: 18px;
+}
+
+.detail highlight {
+  color:#5a6fc4;
 }
 
 .form-wrap {
