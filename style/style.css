@@ -1,0 +1,403 @@
+ /* CSS Resets */
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header, hgroup,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font: inherit;
+   vertical-align: baseline;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;
+   color: #ffffff;
+   text-decoration: none;  
+ }
+ 
+ /* HTML5 Display-Role Reset for Older Browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+   display: block;
+ }
+ body {
+   position: relative;
+   min-height: 100vh;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #253551;
+ }
+ blockquote, q {
+   quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+   content: '';
+   content: none;
+ }
+ table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+ @keyframes fadein {
+     from { opacity: 0; }
+     to   { opacity: 1; }
+ }
+ /* CSS Resets End */
+ 
+ /* Navigation and Footer*/
+ .navigation-container{
+   z-index: 100;
+   display: block;
+   max-width: 100%;
+   padding-top: 24px;
+   margin-bottom: 24px;
+ }
+ 
+ .navigation{
+   max-width: 744px;
+   margin-left: auto;
+   margin-right: auto
+ }
+ 
+ .navigation-container.sticky{
+   position: sticky;
+   width: 100%;
+   top: 0px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   margin-bottom: -24px;
+   background-color: #253551;  
+ }
+ 
+ .nav-item{
+   display: inline-block;
+   margin-right: 24px;
+ }
+ 
+ .active{
+   border-bottom: 2px solid #ffffff;
+   padding-bottom: 2px;
+ }
+ 
+ .inactive{
+   color: #9c9c9c;
+ }
+ 
+ .inactive:hover{
+   color: #ffffff;
+ }
+ 
+ .footer-container{
+   display: block;
+   max-width: 100%;
+   margin-top: 80px;
+   margin-bottom: 24px;
+ }
+ 
+ .footer{
+   max-width: 744px;
+   margin-left: auto;
+   margin-right: auto
+ }
+ 
+ .footer-item{
+   display: inline-block;
+   margin-right: 24px; 
+   color: #9c9c9c;
+ }
+ 
+ .footer-item:hover{
+   color: #ffffff;
+ }
+ /* Navigation and Footer End*/
+ 
+ /* Global */
+ .content-container{
+   display: block;
+   max-width: 744px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ .description{
+   display: block;
+   margin-top: 80px;
+   margin-bottom: 80px;
+ }
+ 
+ .h1{
+   font-size: 22px;
+   font-weight: 600;
+ }
+ 
+ .h2{
+   font-size: 22px;
+   font-weight: 400;
+ }
+ 
+ a.embedded {
+   text-decoration: underline;
+ }
+ /* Global End */
+ 
+ /* Work */
+ .project-block{
+   display: block;
+   margin-bottom: 40px;
+   width: 100%;
+   animation: fadeIn linear .5s;
+   -webkit-animation: fadeIn linear .5s;
+   -moz-animation: fadeIn linear .5s;
+   -o-animation: fadeIn linear .5s;
+   -ms-animation: fadeIn linear .5s;  
+ }
+ 
+ .year{
+   display: block;
+   margin-bottom: 24px;
+ }
+ 
+ a.project{
+   display: block;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   border-top: 1px solid #CCCCCC;
+ }
+ 
+ a.project-final{
+   display: block;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   border-top: 1px solid #CCCCCC;
+   border-bottom: 1px solid #CCCCCC;
+ }
+ 
+ .project-title{
+   display: inline-block;
+   vertical-align: top;
+   max-width: 64%;
+   padding-right: 4%;
+   color: #9c9c9c;
+ }
+ 
+ .project-company{
+   display: inline-block;
+   vertical-align: top;
+   max-width: 32%;
+   float: right;
+   color: #9c9c9c;
+ }
+ 
+ .project:hover .project-title{
+   cursor: pointer;
+   color: #ffffff;
+ }
+ 
+ .project:hover .project-company{
+   cursor: pointer;
+   color: #ffffff;
+ }
+ 
+ .project-final:hover .project-title{
+   cursor: pointer;
+   color: #ffffff;
+ }
+ 
+ .project-final:hover .project-company{
+   cursor: pointer;
+   color: #ffffff;
+ }
+ /* Work End */
+ 
+ /* Values */
+ .value-block{
+   display: block;
+   margin-bottom: 40px;
+   animation: fadeIn linear .5s;
+   -webkit-animation: fadeIn linear .5s;
+   -moz-animation: fadeIn linear .5s;
+   -o-animation: fadeIn linear .5s;
+   -ms-animation: fadeIn linear .5s;  
+ }
+ 
+ .value-title{
+   display: block;
+ }
+ 
+ .value-description{
+   display: block;
+   margin-top: 16px;
+ }
+ /* Values End */
+ 
+ /* About */
+ .photo{
+   display: block;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 40px;
+   animation: fadeIn linear .5s;
+   -webkit-animation: fadeIn linear .5s;
+   -moz-animation: fadeIn linear .5s;
+   -o-animation: fadeIn linear .5s;
+   -ms-animation: fadeIn linear .5s; 
+ }
+ 
+ .bio-block{
+   display: block;
+   margin-bottom: 40px;
+   animation: fadeIn linear .5s;
+   -webkit-animation: fadeIn linear .5s;
+   -moz-animation: fadeIn linear .5s;
+   -o-animation: fadeIn linear .5s;
+   -ms-animation: fadeIn linear .5s;  
+ }
+ 
+ .bio-title{
+   display: block;
+ }
+ 
+ .bio-description{
+   display: block;
+   margin-top: 16px;
+ }
+ /* About End */
+ 
+ /* Breakpoints */
+ @media only screen and (max-width: 800px) {
+   .navigation{
+     max-width: 90%;
+   }
+ 
+   .content-container{
+     max-width: 90%;
+   }  
+ 
+   .footer{
+     max-width: 90%;
+   }  
+ }
+ 
+ @media only screen and (max-width: 480px) {
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed,
+   figure, figcaption, footer, header, hgroup,
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+     font-size: 16px;
+   }
+ 
+   .h1{
+     font-size: 18px;
+   }
+ 
+   .h2{
+     font-size: 18px;
+     font-weight: 400;
+   }
+ 
+   .nav-item{
+     margin-right: 16px;
+   }
+ 
+   .footer-item{
+     margin-right: 16px;  
+   }
+ 
+   .description{
+     margin-top: 64px;
+     margin-bottom: 64px;
+   }
+ 
+   .year{
+     display: block;
+     margin-bottom: 16px;
+   }  
+ 
+   a.project{
+     padding-top: 16px;
+     padding-bottom: 16px;
+   }
+ 
+   a.project-final{
+     display: block;
+     padding-top: 16px;
+     padding-bottom: 16px;
+   }
+ 
+   .project-title{
+     max-width: 100%;
+   }
+ 
+   .project-company{
+     display: none;
+   }
+ 
+   .value-description{
+     margin-top: 8px;
+   }  
+ 
+   .bio-description{
+     display: block;
+     margin-top: 8px;
+   }
+ 
+ }
+ /* Breakpoints End */
+ 
+ /* Transitions */
+ @keyframes fadeIn {
+   0% {opacity:.3;}
+   100% {opacity:1;}
+   from {transform: translateY(16px);}
+   to {transform: translateY(0px);}
+ }
+ 
+ @-moz-keyframes fadeIn {
+   0% {opacity:.3;}
+   100% {opacity:1;}
+   from {transform: translateY(16px);}
+   to {transform: translateY(0px);}
+ }
+ 
+ @-webkit-keyframes fadeIn {
+   0% {opacity:.3;}
+   100% {opacity:1;}
+   from {transform: translateY(16px);}
+   to {transform: translateY(0px);}
+ }
+ 
+ @-o-keyframes fadeIn {
+   0% {opacity:.3;}
+   100% {opacity:1;}
+   from {transform: translateY(16px);}
+   to {transform: translateY(0px);}
+ }
+ 
+ @-ms-keyframes fadeIn {
+   0% {opacity:.3;}
+   100% {opacity:1;}
+   from {transform: translateY(16px);}
+   to {transform: translateY(0px);}
+ }
+ /* Transitions End */
